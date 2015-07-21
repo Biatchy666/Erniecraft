@@ -1,0 +1,4 @@
+item.erniecraft:Leaf.name=Ein Test
+tile.erniecraft:LeafBlock.name=TestBlock
+tile.erniecraft:test.name=Mal kucken ob es funst
+itemGroup.erniecraft=Erniecraft
