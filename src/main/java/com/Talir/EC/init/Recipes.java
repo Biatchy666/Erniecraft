@@ -10,7 +10,7 @@ import net.minecraft.item.ItemStack;
  */
 public class Recipes {
     public static void init(){
-        GameRegistry.addRecipe(new ItemStack(ModBlock.block), " s ", " s ", " s ", 's', new ItemStack(Items.wheat_seeds));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Leaf), new ItemStack((ModBlock.block)), new ItemStack(ModBlock.block));
+        GameRegistry.addRecipe(new ItemStack(ModBlock.BlockLeaf), " s ", " s ", " s ", 's', new ItemStack(Items.wheat_seeds));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Leaf), new ItemStack((ModBlock.BlockLeaf)), new ItemStack(ModBlock.BlockLeaf));
     }
 }

@@ -21,10 +21,12 @@ public class Erniecraft {
         ModItems.init();
         ModBlock.init();
     }
+
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
         Recipes.init();
     }
+
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
 

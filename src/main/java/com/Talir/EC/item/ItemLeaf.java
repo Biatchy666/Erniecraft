@@ -6,7 +6,7 @@ package com.Talir.EC.item;
 public class ItemLeaf extends ItemEC {
     public ItemLeaf(){
         super();
-        this.setUnlocalizedName("Leaf");
+        this.setUnlocalizedName("ItemLeaf");
     }
 
 }

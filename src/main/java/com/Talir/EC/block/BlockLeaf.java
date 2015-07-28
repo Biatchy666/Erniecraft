@@ -9,7 +9,7 @@ import net.minecraftforge.oredict.OreDictionary;
 public class BlockLeaf extends BlockEC {
     public BlockLeaf(){
         super();
-        this.setBlockName("LeafBlock");
+        this.setBlockName("BlockLeaf");
         this.setHardness(2.5f);
     }
 }

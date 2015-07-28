@@ -6,7 +6,7 @@ package com.Talir.EC.block;
 public class Blocktest extends BlockEC{
     public Blocktest(){
         super();
-        this.setBlockName("test");
+        this.setBlockName("Blocktest");
         this.setHardness(2.5f);
     }
 }

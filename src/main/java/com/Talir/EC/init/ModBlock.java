@@ -11,13 +11,13 @@ import net.minecraftforge.oredict.OreDictionary;
  * Created by Karsten on 21.07.2015.
  */
 public class ModBlock {
-    public static final BlockEC block = new BlockLeaf();
-    public static final Blocktest test = new Blocktest();
+    public static final BlockEC BlockLeaf = new BlockLeaf();
+    public static final Blocktest Blocktest = new Blocktest();
 
 
 
     public static void init(){
-        GameRegistry.registerBlock(block, "block");
-        GameRegistry.registerBlock(test, "test");
+        GameRegistry.registerBlock(BlockLeaf, "BlockLeaf");
+        GameRegistry.registerBlock(Blocktest, "Blocktest");
     }
 }
